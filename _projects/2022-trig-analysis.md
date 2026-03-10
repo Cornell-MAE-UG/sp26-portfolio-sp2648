@@ -1,25 +1,67 @@
 ---
 layout: project
-title: Analysis of Functions
-description: Class project with Graphs
+title: Nutcracker problem
+description: Class project into the dimensions of a nutcracker
 technologies: [MATLAB, python]
 image: /assets/images/function-graph.png
 ---
 
+As part of a project, we were instructed to figure out the dimensions of a nutcracker while using common force values and grip strength. 
 
-As part of a class project...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+Problem statment and objective: calculate the necessary dimensions of the nutcracker and come up with a design to make this task feasible and if not, suggesting a new model. 
+
+Constraints and Input Parameters:
+1. Load required to crack nut : 222.18 kg 
+2. Grip Strength : 40 kg 
+3. Size of nut : 0.02 m
+
+Solution:
+1. Draw a FBD.
+2. Use the law of moments of equilibrium. 
+3. Determine length ratio.
+4. Determine height ratio. 
+
+Using the diagram of a nutcracker : by taking the nutcracker joint as pivot point: 
+1. !(/assets/images/IMG_9077.HEIC)
+    l(c)*F - l(n)*F(n) = 0 
+    l(c)/l(n) = F(n)/F(i)
+              = 222.18/40 = 5.55 
+
+    Due to similar triangles:
+            = H(c) = 5.55H(n)
+                   = 5.55(2)
+                   = 11.11cm
+
+            = L(c) = 5.55(4)
+                   = 22.22 cm 
+    Thus, the nutcracker needs to be 22 cm long with the nut position 4 cm away from the joint with the distance between the arms equal to 22.2 cm. 
+
+Since it has a length of 22 cm, this will be pretty large, thus it will be very difficult to handle. 
+
+So use of Linear Actuator: 
+
+Given: IP65 Mini 
+       Max Load - 169 lbs 
+       Dimensions - stroke length = 1 inch 
+                    closed length = 5.13 inches 
+
+       Force to crack nut = 222.15 kg 
+       Size of nut = 2 cm 
+
+       using the same similar triangle from before: 
+            l(c)/l(n) = 222.18/ (169/2.2)
+            = 2.90  
+
+        using l(n) = 4cm, l(c) = 11.59 cm
+            l(c)/l(n) = h(c)/h(n)
+            h(n) = (5.13*2.54)/2.9
+                 = 4.49 cm 
+        h(n) is greater than the size of the nut, but the design needs to have the closed position as h(n) = 2 cm so the new design could be:
+
+        !(/assets/images/IMG_9078.HEIC)
 
 
-Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
 
 
-This is how I solved the problem:
-
-```python
-    some code = 10;
-    plot();
-```
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
 
 
