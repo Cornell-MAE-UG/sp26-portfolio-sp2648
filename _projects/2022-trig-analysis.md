@@ -21,7 +21,8 @@ Solution:
 3. Determine length ratio.
 4. Determine height ratio. 
 
-Using the diagram of a nutcracker : by taking the nutcracker joint as pivot point: 
+Using the diagram of a nutcracker : by taking the nutcracker 
+joint as pivot point: 
 1. !(/assets/images/IMG_9077.HEIC)
     l(c)*F - l(n)*F(n) = 0 
     l(c)/l(n) = F(n)/F(i)
@@ -34,9 +35,13 @@ Using the diagram of a nutcracker : by taking the nutcracker joint as pivot poin
 
             = L(c) = 5.55(4)
                    = 22.22 cm 
-    Thus, the nutcracker needs to be 22 cm long with the nut position 4 cm away from the joint with the distance between the arms equal to 22.2 cm. 
+                   
+    Thus, the nutcracker needs to be 22 cm long with the 
+    nut position 4 cm away from the joint with the distance 
+    between the arms equal to 22.2 cm. 
 
-Since it has a length of 22 cm, this will be pretty large, thus it will be very difficult to handle. 
+Since it has a length of 22 cm, this will be pretty large,
+ thus it will be very difficult to handle. 
 
 So use of Linear Actuator: 
 
@@ -56,7 +61,13 @@ Given: IP65 Mini
             l(c)/l(n) = h(c)/h(n)
             h(n) = (5.13*2.54)/2.9
                  = 4.49 cm 
-        h(n) is greater than the size of the nut, but the design needs to have the closed position as h(n) = 2 cm so the new design could be:
+        h(n) is greater than the size of the nut, but the
+        design needs to have the closed position as h(n) = 2 cm 
+        so the new design could be:
+
+
+
+
 
         !(/assets/images/IMG_9078.HEIC)
 
