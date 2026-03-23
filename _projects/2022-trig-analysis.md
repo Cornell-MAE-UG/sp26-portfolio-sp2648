@@ -27,14 +27,14 @@ joint as pivot point:
     l(c)*F - l(n)*F(n) = 0 
     l(c)/l(n) = F(n)/F(i)
               = 222.18/40 = 5.55 
+Due to similar triangles:
 
-    Due to similar triangles:
-            = H(c) = 5.55H(n)
-                   = 5.55(2)
-                   = 11.11cm
+H(c) = 5.55H(n)  
+= 5.55(2)  
+= 11.11 cm  
 
-            = L(c) = 5.55(4)
-                   = 22.22 cm 
+L(c) = 5.55(4)  
+= 22.22 cm
                    
     Thus, the nutcracker needs to be 22 cm long with the 
     nut position 4 cm away from the joint with the distance 
