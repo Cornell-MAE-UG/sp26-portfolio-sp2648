@@ -70,4 +70,4 @@ h(n) is greater than the size of the nut, but the
 design needs to have the closed position as h(n) = 2 cm,  
 so the new design could be:  
 
-![Nutcracker FBD]({{ "/assets/images/IMG_9077.png" | relative_url }}){:style="width: 500px"}
+![Nutcracker FBD]({{ "/assets/images/IMG_9078.png" | relative_url }}){:style="width: 500px"}
