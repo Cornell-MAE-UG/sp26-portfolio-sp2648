@@ -23,7 +23,7 @@ Solution:
 
 Using the diagram of a nutcracker : by taking the nutcracker 
 joint as pivot point: 
-1. !(/assets/images/IMG_9077.png)
+1. ![Calculation](/assets/images/IMG_9077.png)
     l(c)*F - l(n)*F(n) = 0 
     l(c)/l(n) = F(n)/F(i)
               = 222.18/40 = 5.55 
@@ -69,7 +69,7 @@ Given: IP65 Mini
 
 
 
-        !(/assets/images/IMG_9078.png)
+        ![Nutcracker FBD](/assets/images/IMG_9077.png)
 
 
 
