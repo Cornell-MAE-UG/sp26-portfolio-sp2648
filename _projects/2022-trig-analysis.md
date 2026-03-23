@@ -23,7 +23,7 @@ Solution:
 
 Using the diagram of a nutcracker : by taking the nutcracker 
 joint as pivot point: 
-1. ![Calculation](/assets/images/IMG_9077.png)
+1. ![Diagram]({{ "/assets/images/IMG_9077.png" | relative_url }}){: style="width: 500px"}
     l(c)*F - l(n)*F(n) = 0 
     l(c)/l(n) = F(n)/F(i)
               = 222.18/40 = 5.55 
