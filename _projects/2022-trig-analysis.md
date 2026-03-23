@@ -21,12 +21,14 @@ Solution:
 3. Determine length ratio.
 4. Determine height ratio. 
 
-Using the diagram of a nutcracker : by taking the nutcracker 
+Using the diagram of a nutcracker: by taking the nutcracker 
 joint as pivot point: 
-1. ![Diagram]({{ "/assets/images/IMG_9077.png" | relative_url }}){:style="width: 500px"}
-    l(c)*F - l(n)*F(n) = 0 
-    l(c)/l(n) = F(n)/F(i)
-              = 222.18/40 = 5.55 
+
+![Diagram]({{ "/assets/images/IMG_9077.png" | relative_url }}){:style="width: 500px"}
+
+l(c)*F - l(n)*F(n) = 0  
+l(c)/l(n) = F(n)/F(i) = 222.18/40 = 5.55  
+
 Due to similar triangles:
 
 H(c) = 5.55H(n)  
@@ -34,46 +36,38 @@ H(c) = 5.55H(n)
 = 11.11 cm  
 
 L(c) = 5.55(4)  
-= 22.22 cm
-                   
-    Thus, the nutcracker needs to be 22 cm long with the 
-    nut position 4 cm away from the joint with the distance 
-    between the arms equal to 22.2 cm. 
+= 22.22 cm  
 
-Since it has a length of 22 cm, this will be pretty large,
- thus it will be very difficult to handle. 
+Thus, the nutcracker needs to be 22 cm long with the  
+nut position 4 cm away from the joint with the distance  
+between the arms equal to 22.2 cm.  
 
-So use of Linear Actuator: 
+Since it has a length of 22 cm, this will be pretty large,  
+thus it will be very difficult to handle.  
 
-Given: IP65 Mini 
-       Max Load - 169 lbs 
-       Dimensions - stroke length = 1 inch 
-                    closed length = 5.13 inches 
+So use of Linear Actuator:  
 
-       Force to crack nut = 222.15 kg 
-       Size of nut = 2 cm 
+Given:  
+IP65 Mini  
+Max Load - 169 lbs  
+Dimensions - stroke length = 1 inch  
+closed length = 5.13 inches  
 
-       using the same similar triangle from before: 
-            l(c)/l(n) = 222.18/ (169/2.2)
-            = 2.90  
+Force to crack nut = 222.15 kg  
+Size of nut = 2 cm  
 
-        using l(n) = 4cm, l(c) = 11.59 cm
-            l(c)/l(n) = h(c)/h(n)
-            h(n) = (5.13*2.54)/2.9
-                 = 4.49 cm 
-        h(n) is greater than the size of the nut, but the
-        design needs to have the closed position as h(n) = 2 cm 
-        so the new design could be:
+Using the same similar triangle from before:  
 
+l(c)/l(n) = 222.18 / (169/2.2) = 2.90  
 
+Using l(n) = 4 cm, l(c) = 11.59 cm:  
 
+l(c)/l(n) = h(c)/h(n)  
 
+h(n) = (5.13 × 2.54) / 2.9 = 4.49 cm  
 
-        
-        ![Nutcracker FBD]({{ "/assets/images/IMG_9077.png" | relative_url }}){:style="width: 500px"}
+h(n) is greater than the size of the nut, but the  
+design needs to have the closed position as h(n) = 2 cm,  
+so the new design could be:  
 
-
-
-
-
-
+![Nutcracker FBD]({{ "/assets/images/IMG_9077.png" | relative_url }}){:style="width: 500px"}
